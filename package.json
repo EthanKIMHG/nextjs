@@ -6,8 +6,12 @@
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start",
+<<<<<<< HEAD
     "seed": "node -r dotenv/config ./scripts/seed.js",
     "lint": "next lint"
+=======
+    "seed": "node -r dotenv/config ./scripts/seed.js"
+>>>>>>> 86e6d29224ba1e4e5740c55dd01a2421a0dcc536
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",

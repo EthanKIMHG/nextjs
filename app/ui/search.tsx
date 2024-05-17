@@ -15,12 +15,22 @@ export default function Search({ placeholder }: { placeholder: string }) {
 
     if (term) {
       params.set('query', term);
+<<<<<<< HEAD
     } else {
       params.delete('query')
     }
     
     replace(`${pathName}?${params.toString()}`)
     }, 300)
+=======
+      console.log(params)
+    } else {
+      params.delete('query')
+    }
+    replace(`${pathName}?${params.toString()}`)
+    }, 300)
+
+>>>>>>> 86e6d29224ba1e4e5740c55dd01a2421a0dcc536
   return (
     <div className="relative flex flex-1 flex-shrink-0">
       <label htmlFor="search" className="sr-only">

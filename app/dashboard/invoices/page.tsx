@@ -15,9 +15,13 @@ export default async function Page({
     page?: string;
   };
 }) {
+<<<<<<< HEAD
   
   const query = searchParams?.query || '';
   
+=======
+  const query = searchParams?.query || '';
+>>>>>>> 86e6d29224ba1e4e5740c55dd01a2421a0dcc536
   const currentPage = Number(searchParams?.page) || 1;
 
   const totalPages = await fetchInvoicesPages(query)
